@@ -1,0 +1,10 @@
+[
+  {
+    "kind"    : "string",
+    "parent"  : "#hash",
+    "items"   : "array of #hash",
+    "style"   : "array of string",
+    "class"   : "string",
+    "data"    : "array of property"
+  }
+]

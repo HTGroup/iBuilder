@@ -1,0 +1,15 @@
+{
+  "meta_head": {
+    "title"       : "string",
+    "tags"        : "array of property",
+    "styles"      : "array of string",
+    "scripts"     : "array of string"
+  },
+  "body": {
+    "header"      : "array of items",
+    "navigation"  : "array of items",
+    "main"        : "array of items",
+    "footer"      : "array of items",
+    "scripts"     : "array of string"
+  }
+}

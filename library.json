@@ -1,0 +1,8 @@
+[
+  {
+    "name of param": {
+      "link_tpl"  : "string",
+      "link_js"   : "array of string"
+    }
+  }
+]

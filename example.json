@@ -1,0 +1,90 @@
+{
+  "meta_head": {
+    "title"       : "Hello world",
+    "tags"        : [
+      {
+        "name"  : "title",
+        "value" : "Hello world"
+      },
+      {
+        "name"  : "description",
+        "value" : "Description about hello world"
+      }
+    ],
+    "styles"      : [
+      "/css/style1.css",
+      "/css/style2.css",
+      "/css/style3.css"
+    ],
+    "scripts"     : [
+      "/js/javascript1.css",
+      "/js/javascript2.css",
+      "/js/javascript3.css"
+    ]
+  },
+  "body": {
+    "header"      :
+    [{
+        "hash_1": {
+          "kind": "header",
+          "parent": "header",
+          "items": null,
+          "style": [
+            {
+              "color": "red"
+            }
+          ],
+          "class": null,
+          "data": null
+        }
+    }],
+    "navigation"  : [/* ... */],
+    "main"        :
+    [{
+      "hash_2": {
+        "kind": "a_href",
+        "parent": "main",
+        "items": [
+          "hash_3",
+          "hash_4"
+        ],
+        "style": null,
+        "class": "button blue",
+        "data": [{
+          "name": "href",
+          "value": "//google.com/"
+        }]
+      },
+      "hash_3": {
+        "kind": "img",
+        "parent": "hash_2",
+        "items": null,
+        "style": null,
+        "class": null,
+        "data": [
+          {
+            "name": "src",
+            "value": "//google.com/logo.png"
+          }
+        ]
+      },
+      "hash_4": {
+        "kind"    : "img",
+        "parent"  : "hash_2",
+        "items"   : null,
+        "style"   : null,
+        "class"   : null,
+        "data": [{
+          "name": "content",
+          "value": "First Logo"
+        }]
+      }
+    }],
+    "footer"      : [/* ... */],
+    "scripts"     : [
+      "/js/javascript4.css",
+      "/js/javascript5.css",
+      "/js/javascript6.css"
+    ]
+  }
+}

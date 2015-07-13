@@ -1,6 +1,6 @@
 [
   {
-    "name of param": {
+    "kind": {
       "link_tpl"  : "string",
       "link_js"   : "array of string"
     }

@@ -3,8 +3,8 @@
     "title"       : "Hello world",
     "tags"        : [
       {
-        "name"  : "title",
-        "value" : "Hello world"
+        "name"  : "author",
+        "value" : "JAmes"
       },
       {
         "name"  : "description",
@@ -17,9 +17,9 @@
       "/css/style3.css"
     ],
     "scripts"     : [
-      "/js/javascript1.css",
-      "/js/javascript2.css",
-      "/js/javascript3.css"
+      "/js/javascript1.js",
+      "/js/javascript2.js",
+      "/js/javascript3.js"
     ]
   },
   "body": {
@@ -51,8 +51,7 @@
         "style": null,
         "class": "button blue",
         "data": [{
-          "name": "href",
-          "value": "//google.com/"
+          "href": "//google.com/"
         }]
       },
       "hash_3": {
@@ -63,13 +62,12 @@
         "class": null,
         "data": [
           {
-            "name": "src",
-            "value": "//google.com/logo.png"
+            "src": "//google.com/logo.png"
           }
         ]
       },
       "hash_4": {
-        "kind"    : "img",
+        "kind"    : "span",
         "parent"  : "hash_2",
         "items"   : null,
         "style"   : null,
@@ -82,9 +80,9 @@
     }],
     "footer"      : [/* ... */],
     "scripts"     : [
-      "/js/javascript4.css",
-      "/js/javascript5.css",
-      "/js/javascript6.css"
+      "/js/javascript4.js",
+      "/js/javascript5.js",
+      "/js/javascript6.js"
     ]
   }
 }

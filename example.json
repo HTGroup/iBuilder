@@ -3,8 +3,8 @@
     "title"       : "Hello world",
     "tags"        : [
       {
-        "name"  : "title",
-        "value" : "Hello world"
+        "name"  : "author",
+        "value" : "Hege Refsne"
       },
       {
         "name"  : "description",

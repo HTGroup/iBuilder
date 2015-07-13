@@ -17,9 +17,9 @@
       "/css/style3.css"
     ],
     "scripts"     : [
-      "/js/javascript1.css",
-      "/js/javascript2.css",
-      "/js/javascript3.css"
+      "/js/javascript1.js",
+      "/js/javascript2.js",
+      "/js/javascript3.js"
     ]
   },
   "body": {
